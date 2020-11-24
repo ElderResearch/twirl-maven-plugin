@@ -8,6 +8,18 @@
     <version>9</version>
   </parent>
 
+  <distributionManagement>
+    <repository>
+      <id>eri-releases</id>
+      <name>Elder Research Artifacts-releases</name>
+      <url>https://elderresearch.jfrog.io/artifactory/libs-release</url>
+    </repository>
+    <snapshotRepository>
+      <id>eri-snapshots</id>
+      <name>Elder Research Artifacts-snapshots</name>
+      <url>https://elderresearch.jfrog.io/artifactory/libs-snapshot</url>
+    </snapshotRepository>
+  </distributionManagement>
 
   <groupId>com.jakewharton.twirl</groupId>
   <artifactId>twirl-parent</artifactId>
